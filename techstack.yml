@@ -1,0 +1,551 @@
+repo_name: TawandaMavondo/ekp-sdk-nestjs
+report_id: 8e430f0bfbd6c87a83ea585093509e82
+repo_type: Public
+timestamp: '2023-12-09T20:10:05+00:00'
+requested_by: gavin-shaw
+provider: github
+branch: main
+detected_tools_count: 41
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: NestJS
+  description: A progressive Node.js framework for building efficient and scalable
+    server-side applications by @kammysliwiec.
+  website_url: nestjs.com
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/8747/4zsOyxko_400x400.jpg
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 21:23:56.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.6.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: TypeORM
+  description: An ORM that can run in NodeJS and others
+  website_url: https://typeorm.io/
+  version: 0.2.45
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7419/20165699.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Bull
+  description: Premium Queue package for handling jobs and messages in NodeJS
+  website_url: https://github.com/OptimalBits/bull
+  open_source: true
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/9146/bull-logo.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Sentry
+  description: 'See performance issues, fix errors faster, and optimize code health. '
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-02-06 22:34:37.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: Threads
+  description: Automated Behavior-Driven Email
+  website_url: https://threads.io
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Engagement/Lifecycle Marketing
+  image_url: https://img.stackshare.io/service/4020/threads.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-14 11:26:44.000000000 Z
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
+- name: "@nestjs/common"
+  description: Nest - modern
+  package_url: https://www.npmjs.com/@nestjs/common
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16950/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
+- name: "@nestjs/core"
+  description: Nest - modern, fast, powerful node.js web framework
+  package_url: https://www.npmjs.com/@nestjs/core
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17223/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
+  vulnerabilities:
+  - name: "@nestjs/core vulnerable to Information Exposure via StreamableFile pipe"
+    cve_id: CVE-2023-26108
+    cve_url: https://github.com/advisories/GHSA-4jpv-8r57-pv7j
+    detected_date: Mar 8
+    severity: moderate
+    first_patched: 9.0.5
+- name: "@nestjs/testing"
+  description: Nest - modern
+  package_url: https://www.npmjs.com/@nestjs/testing
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17855/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
+- name: "@sentry/node"
+  description: Offical Sentry SDK for Node.js
+  package_url: https://www.npmjs.com/@sentry/node
+  version: 6.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-02-06 22:34:37.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-14 11:26:44.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 27.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 21:23:56.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.179
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-14 11:26:44.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-02-06 22:34:37.000000000 Z
+- name: "@types/supertest"
+  description: TypeScript definitions for SuperTest
+  package_url: https://www.npmjs.com/@types/supertest
+  version: 2.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 21:23:56.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-14 11:26:44.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.33.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-14 11:26:44.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-02-16 14:11:12.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 27.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 21:23:56.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 9.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-12 22:47:24.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-02-06 22:34:37.000000000 Z
+- name: tsconfig-paths
+  description: Load node modules according to tsconfig paths
+  package_url: https://www.npmjs.com/tsconfig-paths
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: github.com/TawandaMavondo/ekp-sdk-nestjs/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: gavin-shaw
+  last_updated_on: 2022-01-20 22:04:11.000000000 Z
