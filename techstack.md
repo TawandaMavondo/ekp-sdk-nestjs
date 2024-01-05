@@ -56,7 +56,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [TawandaMavondo/ekp-sdk-nestjs](https://github.com/TawandaMavondo/ekp-sdk-nestjs)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|41<br/>Tools used|12/09/23 <br/>Report generated|
+|42<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -264,9 +264,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (19)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (20)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (19)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (20)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -289,6 +289,7 @@ Full tech stack [here](/techstack.md)
 |[ts-loader](https://www.npmjs.com/ts-loader)|v9.2.8|01/12/22|gavin-shaw |MIT|N/A|
 |[ts-node](https://www.npmjs.com/ts-node)|v10.7.0|02/06/22|gavin-shaw |MIT|N/A|
 |[tsconfig-paths](https://www.npmjs.com/tsconfig-paths)|v3.12.0|01/20/22|gavin-shaw |MIT|N/A|
+|[winston](https://www.npmjs.com/winston)|v3.6.0|01/12/22|gavin-shaw |MIT|N/A|
 
 <br/>
 <div align='center'>
